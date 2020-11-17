@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Test.TestController">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="Registration_data" invocation-numbers="0"/>
+          <include name="Registration_data2" invocation-numbers="0"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.Test.TestController -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

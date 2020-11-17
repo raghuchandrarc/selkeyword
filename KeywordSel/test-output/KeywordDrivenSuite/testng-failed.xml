@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KeywordDrivenSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="KeywordDrivenTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.Test.TestController">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="Registration_data2" invocation-numbers="0"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- com.Test.TestController -->
+    </classes>
+  </test> <!-- KeywordDrivenTest(failed) -->
+</suite> <!-- Failed suite [KeywordDrivenSuite] -->
