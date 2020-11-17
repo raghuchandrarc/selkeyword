@@ -50,7 +50,7 @@ public class TestController extends Resources {
 	public void initBrowser() throws IOException {
 
 		Initialize();
-		//selectBrowser(BROWSER_NAME);
+		selectBrowser(BROWSER_NAME);
 
 	}
 
@@ -137,7 +137,7 @@ public class TestController extends Resources {
 
 	}
 
-	//@Test
+	@Test
 	public void TestCaseController() throws Exception {
 		DOMConfigurator.configure("log4j.xml");
 
@@ -211,7 +211,7 @@ public class TestController extends Resources {
 		
 	}
 	
-	@Test(dataProvider = "Authentication")
+	//@Test(dataProvider = "Authentication")
 	public void Registration_data(String sUserName, String sPassword) throws Exception {
 		chrome();
 		// http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx
@@ -229,7 +229,7 @@ public class TestController extends Resources {
 
 	}
 	
-	@Test(dataProvider = "Authentication")
+	///@Test(dataProvider = "Authentication")
 	public void Registration_data2(String sUserName, String sPassword) throws Exception {
 		ie();
 		// http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx
@@ -248,7 +248,7 @@ public class TestController extends Resources {
 
 	}
 
-	@DataProvider(name = "Authentication",parallel=true)
+	//@DataProvider(name = "Authentication",parallel=true)
 
 	public Object[][] Authentication() throws Exception {
 
