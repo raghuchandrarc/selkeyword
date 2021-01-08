@@ -127,38 +127,39 @@ public class Keywords extends Resources {
 			if (TestReuse.startsWith("Reuse_TC")) {
 				String[] testReusePara = TestReuse.split("\\|");
 				System.out.println("Parameters for Reuse Test cases ..." + testReusePara[1] + " ---- "
-						+ testReusePara[2] + " ---- " + testReusePara[3] + " ---- " + testReusePara[4]);
-				String TestCaseID = testReusePara[1];
-				String reuseTestStepStart = testReusePara[2];
-				String reuseTestStepEnd = testReusePara[3];
+						+ testReusePara[2] + " ---- " + testReusePara[3] + " ---- " + testReusePara[4]+" ---- " + testReusePara[5]);
+				String testSheetname=testReusePara[1] ;
+				String TestCaseID = testReusePara[2];
+				String reuseTestStepStart = testReusePara[3];
+				String reuseTestStepEnd = testReusePara[4];
 
-				if (testReusePara[4].equals("Y")) {
-					int testStepStart = s.getCellRowNum(testcaseSheetName, "Test Case ID", TestCaseID, "TestStepID",
+				if (testReusePara[5].equals("Y")) {
+					int testStepStart = s.getCellRowNum(testSheetname, "Test Case ID", TestCaseID, "TestStepID",
 							reuseTestStepStart);
-					int testStepEnd = s.getCellRowNum(testcaseSheetName, "Test Case ID", TestCaseID, "TestStepID",
+					int testStepEnd = s.getCellRowNum(testSheetname, "Test Case ID", TestCaseID, "TestStepID",
 							reuseTestStepEnd);
 					for (int TS = testStepStart; TS <= testStepEnd; TS++) {
-						String testcase_ID = suiteData.getCellData(testcaseSheetName, "Test Case ID", TS);
+						String testcase_ID = suiteData.getCellData(testSheetname, "Test Case ID", TS);
 						System.out.println("testcase_ID in Reuse  .." + testcase_ID);
-						String TestDataField = suiteData.getCellData(testcaseSheetName, "TestDataField", TS);
+						String TestDataField = suiteData.getCellData(testSheetname, "TestDataField", TS);
 						testData = testStepData.GetTestData("MasterTestData", TestCaseID, TestDataField, "Testdata");
-						keyword = suiteData.getCellData(testcaseSheetName, "Keyword", TS);
-						webElement = suiteData.getCellData(testcaseSheetName, "WebElement", TS);
+						keyword = suiteData.getCellData(testSheetname, "Keyword", TS);
+						webElement = suiteData.getCellData(testSheetname, "WebElement", TS);
 						Method method = Keywords.class.getMethod(keyword);
 						TSStatus = (String) method.invoke(method);
 
 					}
 
 				} else {
-					int testStepStart = s.getCellRowNum(testcaseSheetName, "Test Case ID", TestCaseID, "TestStepID",
+					int testStepStart = s.getCellRowNum(testSheetname, "Test Case ID", TestCaseID, "TestStepID",
 							reuseTestStepStart);
-					int testStepEnd = s.getCellRowNum(testcaseSheetName, "Test Case ID", TestCaseID, "TestStepID",
+					int testStepEnd = s.getCellRowNum(testSheetname, "Test Case ID", TestCaseID, "TestStepID",
 							reuseTestStepEnd);
 					for (int TS = testStepStart; TS <= testStepEnd; TS++) {
 						String TestDataField = suiteData.getCellData("TestCases", "TestDataField", TS);
 						testData = testStepData.GetTestData("MasterTestData", testcase_ID, TestDataField, "Testdata");
-						keyword = suiteData.getCellData(testcaseSheetName, "Keyword", TS);
-						webElement = suiteData.getCellData(testcaseSheetName, "WebElement", TS);
+						keyword = suiteData.getCellData(testSheetname, "Keyword", TS);
+						webElement = suiteData.getCellData(testSheetname, "WebElement", TS);
 						Method method = Keywords.class.getMethod(keyword);
 						TSStatus = (String) method.invoke(method);
 
@@ -658,10 +659,42 @@ public class Keywords extends Resources {
 	/**
 	 * expliciteWait of WebElement
 	 */
-	public static String expliciteWait() throws Exception {
-		WebDriverWait wait = new WebDriverWait(driver, 60);
-		wait.until(ExpectedConditions.visibilityOf(getWebElement(webElement)));
+	public static String explicitWait() throws Exception {
+		try {
+			WebElement webElemnt = getWebElement(webElement);
+			if (webElemnt.isEnabled() && webElemnt.isDisplayed()) {
+				Log4j.info("explicitWait is called ... " + webElemnt);
+				WebDriverWait wait = new WebDriverWait(driver, 60);
+				wait.until(ExpectedConditions.visibilityOf(webElemnt));
+				wait.until(ExpectedConditions.stalenessOf(webElemnt));
+			} else {
+				System.out.println("Unable to visibility of element");
+			}
+
+		} catch (Throwable t) {
+			Log4j.error("Not able to --- " + t.getMessage());
+			return "Failed - Element not found " + webElement;
+		}
+
 		return "Pass";
+	}
+	
+	public static void CLick(WebElement element) throws Exception {
+		try {
+			if (element.isEnabled() && element.isDisplayed()) {
+				System.out.println("Clicking on element with using java script click");
+
+				((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+			} else {
+				System.out.println("Unable to click on element");
+			}
+		} catch (StaleElementReferenceException e) {
+			System.out.println("Element is not attached to the page document " + e.getStackTrace());
+		} catch (NoSuchElementException e) {
+			System.out.println("Element was not found in DOM " + e.getStackTrace());
+		} catch (Exception e) {
+			System.out.println("Unable to click on element " + e.getStackTrace());
+		}
 	}
 
 	public static String clickWhenReady(By locator, int timeout) {
@@ -913,23 +946,7 @@ public class Keywords extends Resources {
 
 	}
 
-	public static void CLick(WebElement element) throws Exception {
-		try {
-			if (element.isEnabled() && element.isDisplayed()) {
-				System.out.println("Clicking on element with using java script click");
-
-				((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-			} else {
-				System.out.println("Unable to click on element");
-			}
-		} catch (StaleElementReferenceException e) {
-			System.out.println("Element is not attached to the page document " + e.getStackTrace());
-		} catch (NoSuchElementException e) {
-			System.out.println("Element was not found in DOM " + e.getStackTrace());
-		} catch (Exception e) {
-			System.out.println("Unable to click on element " + e.getStackTrace());
-		}
-	}
+	
 
 	/**
 	 * Switch To frame( html inside another html)

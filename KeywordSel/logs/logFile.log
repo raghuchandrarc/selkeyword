@@ -14381,3 +14381,752 @@ Driver info: driver.version: EventFiringWebDriver
 2020-11-13 13:35:30,593 INFO  [Log4j] WebElement:----------->        
 2020-11-13 13:35:30,593 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
 2020-11-13 13:35:30,613 INFO  [Log4j] Navigate is called 
+2020-11-17 14:17:50,581 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:17:50,604 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:17:50,604 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:17:50,604 INFO  [Log4j] Action Keyword:----------->    Navigate  
+2020-11-17 14:17:50,604 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:17:50,604 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
+2020-11-17 14:17:50,607 INFO  [Log4j] Navigate is called 
+2020-11-17 14:17:56,978 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:17:56,978 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:17:56,978 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:17:56,978 INFO  [Log4j] Action Keyword:----------->    waitFor  
+2020-11-17 14:17:56,978 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:17:56,978 INFO  [Log4j] Input Data:--------------->    20  
+2020-11-17 14:18:17,016 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:17,016 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:17,016 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:17,017 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:17,017 INFO  [Log4j] WebElement:----------->    enquiryType    
+2020-11-17 14:18:17,017 INFO  [Log4j] Input Data:--------------->    Other  
+2020-11-17 14:18:18,334 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:18,334 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:18,335 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:18,335 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:18:18,335 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:18:18,335 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:18:18,335 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:18:18,528 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:18,528 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:18,528 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:18,528 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:18,528 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:18:18,528 INFO  [Log4j] Input Data:--------------->    Raghu  
+2020-11-17 14:18:18,528 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:18:18,741 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:18,741 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:18,741 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:18,741 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:18,741 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:18:18,741 INFO  [Log4j] Input Data:--------------->    Rc  
+2020-11-17 14:18:18,741 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:18:18,948 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:18,948 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:18,948 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:18,949 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:18,949 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:18:18,949 INFO  [Log4j] Input Data:--------------->    Software Engineer  
+2020-11-17 14:18:18,949 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:18:19,178 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:19,178 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:19,178 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:19,178 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:19,178 INFO  [Log4j] WebElement:----------->    emailAddress    
+2020-11-17 14:18:19,179 INFO  [Log4j] Input Data:--------------->    admin1@gmail.com  
+2020-11-17 14:18:19,179 INFO  [Log4j] Enter text into ... emailAddress 
+2020-11-17 14:18:19,467 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:19,467 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:19,467 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:19,467 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:19,467 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:18:19,467 INFO  [Log4j] Input Data:--------------->    SLK  
+2020-11-17 14:18:19,467 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:18:19,744 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:19,744 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:19,744 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:19,744 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:19,744 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:18:19,744 INFO  [Log4j] Input Data:--------------->    88888888  
+2020-11-17 14:18:19,744 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:18:19,923 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:19,923 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:19,923 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:19,923 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:19,923 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:18:19,923 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:18:20,083 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:20,083 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:20,083 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:20,083 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:20,083 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:18:20,083 INFO  [Log4j] Input Data:--------------->    India  
+2020-11-17 14:18:20,268 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:20,268 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:20,268 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:20,268 INFO  [Log4j] Action Keyword:----------->    AssertString  
+2020-11-17 14:18:20,268 INFO  [Log4j] WebElement:----------->    thanksTitle    
+2020-11-17 14:18:20,268 INFO  [Log4j] Input Data:--------------->    Thanks  
+2020-11-17 14:18:20,268 INFO  [Log4j] Assert String is called ... thanksTitle 
+2020-11-17 14:18:20,331 ERROR [Log4j] Not able to AssertString--- expected [Thanks] but found [Contact Us] 
+2020-11-17 14:18:20,331 ERROR [Log4j] TC-1 
+2020-11-17 14:18:20,853 ERROR [Log4j] TC-1 
+2020-11-17 14:18:20,880 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:20,880 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:20,880 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:20,881 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:18:20,881 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:18:20,881 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TC-1|TS04|TS06|Y  
+2020-11-17 14:18:20,881 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:18:20,931 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:18:21,027 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:18:21,209 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:18:21,471 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:21,471 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:21,471 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:21,471 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:21,471 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:18:21,471 INFO  [Log4j] Input Data:--------------->    SLK GP  
+2020-11-17 14:18:21,471 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:18:21,678 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:21,679 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:21,679 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:21,679 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:21,679 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:18:21,679 INFO  [Log4j] Input Data:--------------->    12345689  
+2020-11-17 14:18:21,679 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:18:21,937 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:21,937 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:21,937 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:21,937 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:21,937 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:18:21,937 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:18:22,084 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:22,084 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:22,084 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:22,084 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:22,084 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:18:22,084 INFO  [Log4j] Input Data:--------------->    United States  
+2020-11-17 14:18:22,270 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:22,270 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:22,270 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:22,270 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:18:22,270 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:18:22,270 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TC-1|TS04|TS06|Y  
+2020-11-17 14:18:22,270 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:18:22,368 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:18:22,477 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:18:22,727 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:18:22,896 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:22,896 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:22,896 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:22,896 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:18:22,896 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:18:22,896 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TC-2|TS02|TS05|N  
+2020-11-17 14:18:22,896 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:18:22,929 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:18:23,099 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:18:24,611 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:24,611 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:24,611 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:24,611 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:24,611 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:18:24,611 INFO  [Log4j] Input Data:--------------->    Mukesh  
+2020-11-17 14:18:24,611 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:18:24,816 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:24,816 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:24,816 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:24,816 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:24,816 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:18:24,816 INFO  [Log4j] Input Data:--------------->    Thakor  
+2020-11-17 14:18:24,816 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:18:24,999 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:24,999 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:24,999 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:24,999 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:18:24,999 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:18:24,999 INFO  [Log4j] Input Data:--------------->    SE  
+2020-11-17 14:18:25,000 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:18:25,250 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:25,250 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:25,250 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:25,250 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:18:25,250 INFO  [Log4j] WebElement:----------->    selectState    
+2020-11-17 14:18:25,250 INFO  [Log4j] Input Data:--------------->    AR  
+2020-11-17 14:18:25,419 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:18:25,419 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:18:25,419 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:18:25,419 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:18:25,419 INFO  [Log4j] WebElement:----------->    btnsubmit    
+2020-11-17 14:18:25,419 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:18:25,419 INFO  [Log4j] Click is called ... btnsubmit 
+2020-11-17 14:20:55,719 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:20:55,720 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:20:55,720 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:20:55,720 INFO  [Log4j] Action Keyword:----------->    Navigate  
+2020-11-17 14:20:55,720 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:20:55,720 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
+2020-11-17 14:20:55,722 INFO  [Log4j] Navigate is called 
+2020-11-17 14:20:59,790 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:20:59,790 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:20:59,790 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:20:59,790 INFO  [Log4j] Action Keyword:----------->    waitFor  
+2020-11-17 14:20:59,790 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:20:59,790 INFO  [Log4j] Input Data:--------------->    20  
+2020-11-17 14:21:19,822 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:19,822 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:19,822 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:19,822 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:21:19,822 INFO  [Log4j] WebElement:----------->    enquiryType    
+2020-11-17 14:21:19,822 INFO  [Log4j] Input Data:--------------->    Other  
+2020-11-17 14:21:20,061 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:20,061 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:20,061 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:20,062 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:21:20,062 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:21:20,062 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:21:20,062 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:21:20,209 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:20,209 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:20,209 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:20,209 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:20,210 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:21:20,210 INFO  [Log4j] Input Data:--------------->    Raghu  
+2020-11-17 14:21:20,210 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:21:20,375 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:20,375 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:20,375 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:20,375 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:20,376 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:21:20,376 INFO  [Log4j] Input Data:--------------->    Rc  
+2020-11-17 14:21:20,376 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:21:20,554 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:20,555 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:20,555 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:20,555 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:20,555 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:21:20,555 INFO  [Log4j] Input Data:--------------->    Software Engineer  
+2020-11-17 14:21:20,555 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:21:20,801 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:20,801 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:20,801 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:20,801 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:20,801 INFO  [Log4j] WebElement:----------->    emailAddress    
+2020-11-17 14:21:20,802 INFO  [Log4j] Input Data:--------------->    admin1@gmail.com  
+2020-11-17 14:21:20,802 INFO  [Log4j] Enter text into ... emailAddress 
+2020-11-17 14:21:21,093 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:21,093 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:21,093 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:21,094 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:21,094 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:21:21,094 INFO  [Log4j] Input Data:--------------->    SLK  
+2020-11-17 14:21:21,094 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:21:21,310 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:21,310 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:21,310 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:21,310 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:21:21,310 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:21:21,310 INFO  [Log4j] Input Data:--------------->    88888888  
+2020-11-17 14:21:21,310 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:21:21,508 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:21,508 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:21,508 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:21,508 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:21:21,508 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:21:21,508 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:21:21,652 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:21,653 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:21,653 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:21,653 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:21:21,653 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:21:21,653 INFO  [Log4j] Input Data:--------------->    India  
+2020-11-17 14:21:21,828 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:21,828 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:21,828 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:21,828 INFO  [Log4j] Action Keyword:----------->    AssertString  
+2020-11-17 14:21:21,828 INFO  [Log4j] WebElement:----------->    thanksTitle    
+2020-11-17 14:21:21,828 INFO  [Log4j] Input Data:--------------->    Thanks  
+2020-11-17 14:21:21,828 INFO  [Log4j] Assert String is called ... thanksTitle 
+2020-11-17 14:21:21,893 ERROR [Log4j] Not able to AssertString--- expected [Thanks] but found [Contact Us] 
+2020-11-17 14:21:21,893 ERROR [Log4j] TC-1 
+2020-11-17 14:21:22,219 ERROR [Log4j] TC-1 
+2020-11-17 14:21:22,231 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:21:22,231 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:21:22,231 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:21:22,231 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:21:22,231 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:21:22,231 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:21:22,231 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:21:22,268 ERROR [Log4j] ReuseTestCase Wrong--- Data not found in the data sheet.Sheet:MasterTestData search testCaseID:TC-2 search TestDataField: testDataColumnName :Testdata 
+2020-11-17 14:21:22,268 ERROR [Log4j] TC-2 
+2020-11-17 14:22:41,813 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:22:41,814 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:22:41,814 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:22:41,814 INFO  [Log4j] Action Keyword:----------->    Navigate  
+2020-11-17 14:22:41,814 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:22:41,814 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
+2020-11-17 14:22:41,816 INFO  [Log4j] Navigate is called 
+2020-11-17 14:22:47,151 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:22:47,151 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:22:47,151 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:22:47,151 INFO  [Log4j] Action Keyword:----------->    waitFor  
+2020-11-17 14:22:47,151 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:22:47,151 INFO  [Log4j] Input Data:--------------->    20  
+2020-11-17 14:23:08,004 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,004 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,004 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,004 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:23:08,004 INFO  [Log4j] WebElement:----------->    enquiryType    
+2020-11-17 14:23:08,004 INFO  [Log4j] Input Data:--------------->    Other  
+2020-11-17 14:23:08,242 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,242 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,244 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,244 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:23:08,244 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:23:08,244 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:23:08,244 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:23:08,371 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,371 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,371 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,371 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:08,371 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:23:08,371 INFO  [Log4j] Input Data:--------------->    Raghu  
+2020-11-17 14:23:08,371 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:23:08,544 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,544 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,544 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,544 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:08,544 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:23:08,544 INFO  [Log4j] Input Data:--------------->    Rc  
+2020-11-17 14:23:08,544 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:23:08,724 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,724 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,724 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,724 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:08,724 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:23:08,724 INFO  [Log4j] Input Data:--------------->    Software Engineer  
+2020-11-17 14:23:08,724 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:23:08,930 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:08,930 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:08,930 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:08,930 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:08,930 INFO  [Log4j] WebElement:----------->    emailAddress    
+2020-11-17 14:23:08,930 INFO  [Log4j] Input Data:--------------->    admin1@gmail.com  
+2020-11-17 14:23:08,930 INFO  [Log4j] Enter text into ... emailAddress 
+2020-11-17 14:23:09,144 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:09,144 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:09,144 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:09,144 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:09,144 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:23:09,144 INFO  [Log4j] Input Data:--------------->    SLK  
+2020-11-17 14:23:09,144 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:23:09,335 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:09,335 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:09,335 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:09,335 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:23:09,335 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:23:09,335 INFO  [Log4j] Input Data:--------------->    88888888  
+2020-11-17 14:23:09,336 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:23:09,521 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:09,521 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:09,521 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:09,521 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:23:09,521 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:23:09,521 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:23:09,651 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:09,651 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:09,651 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:09,651 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:23:09,651 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:23:09,651 INFO  [Log4j] Input Data:--------------->    India  
+2020-11-17 14:23:09,817 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:09,817 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:09,817 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:09,817 INFO  [Log4j] Action Keyword:----------->    AssertString  
+2020-11-17 14:23:09,817 INFO  [Log4j] WebElement:----------->    thanksTitle    
+2020-11-17 14:23:09,817 INFO  [Log4j] Input Data:--------------->    Thanks  
+2020-11-17 14:23:09,817 INFO  [Log4j] Assert String is called ... thanksTitle 
+2020-11-17 14:23:09,898 ERROR [Log4j] Not able to AssertString--- expected [Thanks] but found [Contact Us] 
+2020-11-17 14:23:09,898 ERROR [Log4j] TC-1 
+2020-11-17 14:23:10,247 ERROR [Log4j] TC-1 
+2020-11-17 14:23:10,264 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:23:10,264 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:23:10,264 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:23:10,264 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:23:10,264 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:23:10,264 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:23:10,264 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:23:10,307 ERROR [Log4j] ReuseTestCase Wrong--- Data not found in the data sheet.Sheet:MasterTestData search testCaseID:TC-2 search TestDataField: testDataColumnName :Testdata 
+2020-11-17 14:23:10,313 ERROR [Log4j] TC-2 
+2020-11-17 14:25:23,126 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:23,127 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:23,127 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:23,127 INFO  [Log4j] Action Keyword:----------->    Navigate  
+2020-11-17 14:25:23,127 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:25:23,127 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
+2020-11-17 14:25:23,130 INFO  [Log4j] Navigate is called 
+2020-11-17 14:25:27,959 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:27,959 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:27,959 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:27,959 INFO  [Log4j] Action Keyword:----------->    waitFor  
+2020-11-17 14:25:27,959 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:25:27,961 INFO  [Log4j] Input Data:--------------->    20  
+2020-11-17 14:25:47,993 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:47,993 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:47,993 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:47,993 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:47,993 INFO  [Log4j] WebElement:----------->    enquiryType    
+2020-11-17 14:25:47,993 INFO  [Log4j] Input Data:--------------->    Other  
+2020-11-17 14:25:48,321 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:48,321 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:48,321 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:48,321 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:25:48,321 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:25:48,321 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:25:48,321 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:25:48,459 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:48,459 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:48,459 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:48,459 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:48,459 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:25:48,459 INFO  [Log4j] Input Data:--------------->    Raghu  
+2020-11-17 14:25:48,460 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:25:48,632 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:48,632 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:48,632 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:48,632 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:48,632 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:25:48,634 INFO  [Log4j] Input Data:--------------->    Rc  
+2020-11-17 14:25:48,634 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:25:48,809 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:48,809 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:48,809 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:48,809 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:48,809 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:25:48,809 INFO  [Log4j] Input Data:--------------->    Software Engineer  
+2020-11-17 14:25:48,809 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:25:49,003 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,003 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,003 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,003 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:49,003 INFO  [Log4j] WebElement:----------->    emailAddress    
+2020-11-17 14:25:49,003 INFO  [Log4j] Input Data:--------------->    admin1@gmail.com  
+2020-11-17 14:25:49,003 INFO  [Log4j] Enter text into ... emailAddress 
+2020-11-17 14:25:49,206 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,206 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,206 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,206 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:49,206 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:25:49,206 INFO  [Log4j] Input Data:--------------->    SLK  
+2020-11-17 14:25:49,206 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:25:49,397 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,397 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,397 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,397 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:49,397 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:25:49,397 INFO  [Log4j] Input Data:--------------->    88888888  
+2020-11-17 14:25:49,397 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:25:49,591 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,591 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,591 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,591 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:49,591 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:25:49,591 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:25:49,724 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,724 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,724 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,725 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:49,725 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:25:49,725 INFO  [Log4j] Input Data:--------------->    India  
+2020-11-17 14:25:49,893 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:49,893 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:49,893 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:49,893 INFO  [Log4j] Action Keyword:----------->    AssertString  
+2020-11-17 14:25:49,893 INFO  [Log4j] WebElement:----------->    thanksTitle    
+2020-11-17 14:25:49,893 INFO  [Log4j] Input Data:--------------->    Thanks  
+2020-11-17 14:25:49,893 INFO  [Log4j] Assert String is called ... thanksTitle 
+2020-11-17 14:25:49,967 ERROR [Log4j] Not able to AssertString--- expected [Thanks] but found [Contact Us] 
+2020-11-17 14:25:49,967 ERROR [Log4j] TC-1 
+2020-11-17 14:25:50,385 ERROR [Log4j] TC-1 
+2020-11-17 14:25:50,398 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:50,398 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:50,398 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:50,398 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:25:50,398 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:25:50,398 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:25:50,398 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:25:50,435 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:25:51,693 ERROR [Log4j] Not able to Click--- element click intercepted: Element <input id="FirstName" name="FirstName" placeholder="Enter First Name" maxlength="255" aria-describedby="ValidMsgFirstName" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoValid" aria-required="true" style="background: yellow; border: 2px solid red;" aria-invalid="false"> is not clickable at point (578, 36). Other element would receive the click: <p class="hd1">...</p>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHU', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91734\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: defa769618cb49a1be8765bd23f5e506 
+2020-11-17 14:25:51,694 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:25:51,868 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:25:52,045 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:52,046 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:52,046 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:52,046 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:52,046 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:25:52,046 INFO  [Log4j] Input Data:--------------->    SLK GP  
+2020-11-17 14:25:52,046 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:25:52,229 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:52,229 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:52,229 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:52,229 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:52,229 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:25:52,229 INFO  [Log4j] Input Data:--------------->    12345689  
+2020-11-17 14:25:52,229 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:25:52,430 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:52,430 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:52,430 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:52,430 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:52,430 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:25:52,430 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:25:52,521 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:52,521 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:52,521 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:52,521 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:52,521 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:25:52,521 INFO  [Log4j] Input Data:--------------->    United States  
+2020-11-17 14:25:52,716 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:52,717 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:52,717 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:52,717 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:25:52,717 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:25:52,717 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:25:52,717 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:25:52,756 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:25:53,918 ERROR [Log4j] Not able to Click--- element click intercepted: Element <input id="FirstName" name="FirstName" placeholder="Enter First Name" maxlength="255" aria-describedby="ValidMsgFirstName" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoValid" aria-required="true" style="background: yellow; border: 2px solid red;" aria-invalid="false"> is not clickable at point (578, 36). Other element would receive the click: <p class="hd1">...</p>
+  (Session info: chrome=86.0.4240.198)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAGHU', ip: '192.168.43.44', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\91734\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: defa769618cb49a1be8765bd23f5e506 
+2020-11-17 14:25:53,919 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:25:54,100 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:25:54,289 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:54,290 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:54,290 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:54,290 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:25:54,290 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:25:54,290 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-2|TS02|TS05|N  
+2020-11-17 14:25:54,290 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:25:54,327 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:25:54,513 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:25:55,001 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:55,001 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:55,002 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:55,002 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:55,002 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:25:55,002 INFO  [Log4j] Input Data:--------------->    Mukesh  
+2020-11-17 14:25:55,003 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:25:55,179 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:55,179 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:55,180 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:55,180 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:55,180 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:25:55,180 INFO  [Log4j] Input Data:--------------->    Thakor  
+2020-11-17 14:25:55,180 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:25:55,383 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:55,383 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:55,383 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:55,383 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:25:55,383 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:25:55,383 INFO  [Log4j] Input Data:--------------->    SE  
+2020-11-17 14:25:55,383 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:25:55,582 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:55,582 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:55,582 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:55,582 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:25:55,582 INFO  [Log4j] WebElement:----------->    selectState    
+2020-11-17 14:25:55,582 INFO  [Log4j] Input Data:--------------->    AR  
+2020-11-17 14:25:55,757 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:25:55,757 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:25:55,757 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:25:55,757 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:25:55,757 INFO  [Log4j] WebElement:----------->    btnsubmit    
+2020-11-17 14:25:55,757 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:25:55,757 INFO  [Log4j] Click is called ... btnsubmit 
+2020-11-17 14:27:42,053 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:27:42,054 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:27:42,054 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:27:42,054 INFO  [Log4j] Action Keyword:----------->    Navigate  
+2020-11-17 14:27:42,055 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:27:42,055 INFO  [Log4j] Input Data:--------------->    https://www.fisglobal.com/en/contact-us  
+2020-11-17 14:27:42,057 INFO  [Log4j] Navigate is called 
+2020-11-17 14:27:48,884 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:27:48,884 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:27:48,884 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:27:48,884 INFO  [Log4j] Action Keyword:----------->    waitFor  
+2020-11-17 14:27:48,884 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:27:48,884 INFO  [Log4j] Input Data:--------------->    20  
+2020-11-17 14:28:08,917 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:08,917 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:08,917 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:08,917 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:08,917 INFO  [Log4j] WebElement:----------->    enquiryType    
+2020-11-17 14:28:08,917 INFO  [Log4j] Input Data:--------------->    Other  
+2020-11-17 14:28:09,670 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:09,670 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:09,670 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:09,670 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:28:09,670 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:28:09,670 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:28:09,670 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:28:09,862 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:09,862 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:09,862 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:09,862 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:09,862 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:28:09,862 INFO  [Log4j] Input Data:--------------->    Raghu  
+2020-11-17 14:28:09,862 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:28:10,059 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:10,059 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:10,059 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:10,059 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:10,059 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:28:10,059 INFO  [Log4j] Input Data:--------------->    Rc  
+2020-11-17 14:28:10,059 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:28:10,261 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:10,262 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:10,262 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:10,262 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:10,262 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:28:10,262 INFO  [Log4j] Input Data:--------------->    Software Engineer  
+2020-11-17 14:28:10,262 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:28:10,490 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:10,490 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:10,490 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:10,490 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:10,490 INFO  [Log4j] WebElement:----------->    emailAddress    
+2020-11-17 14:28:10,490 INFO  [Log4j] Input Data:--------------->    admin1@gmail.com  
+2020-11-17 14:28:10,490 INFO  [Log4j] Enter text into ... emailAddress 
+2020-11-17 14:28:10,726 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:10,726 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:10,726 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:10,726 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:10,726 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:28:10,726 INFO  [Log4j] Input Data:--------------->    SLK  
+2020-11-17 14:28:10,726 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:28:10,982 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:10,982 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:10,982 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:10,982 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:10,982 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:28:10,982 INFO  [Log4j] Input Data:--------------->    88888888  
+2020-11-17 14:28:10,982 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:28:11,184 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:11,184 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:11,184 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:11,184 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:11,184 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:28:11,184 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:28:11,360 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:11,360 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:11,360 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:11,360 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:11,360 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:28:11,360 INFO  [Log4j] Input Data:--------------->    India  
+2020-11-17 14:28:11,513 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:11,513 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:11,513 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:11,513 INFO  [Log4j] Action Keyword:----------->    AssertString  
+2020-11-17 14:28:11,513 INFO  [Log4j] WebElement:----------->    thanksTitle    
+2020-11-17 14:28:11,513 INFO  [Log4j] Input Data:--------------->    Thanks  
+2020-11-17 14:28:11,513 INFO  [Log4j] Assert String is called ... thanksTitle 
+2020-11-17 14:28:11,603 ERROR [Log4j] Not able to AssertString--- expected [Thanks] but found [Contact Us] 
+2020-11-17 14:28:11,603 ERROR [Log4j] TC-1 
+2020-11-17 14:28:12,274 ERROR [Log4j] TC-1 
+2020-11-17 14:28:12,309 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:12,309 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:12,309 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:12,309 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:28:12,309 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:28:12,309 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:28:12,309 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:28:12,345 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:28:12,462 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:28:12,646 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:28:12,834 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:12,834 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:12,834 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:12,834 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:12,834 INFO  [Log4j] WebElement:----------->    company    
+2020-11-17 14:28:12,834 INFO  [Log4j] Input Data:--------------->    SLK GP  
+2020-11-17 14:28:12,834 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:28:13,054 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:13,054 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:13,054 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:13,054 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:13,054 INFO  [Log4j] WebElement:----------->    phoneNum    
+2020-11-17 14:28:13,054 INFO  [Log4j] Input Data:--------------->    12345689  
+2020-11-17 14:28:13,054 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:28:13,276 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:13,276 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:13,276 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:13,276 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:13,276 INFO  [Log4j] WebElement:----------->    heardAboutUs    
+2020-11-17 14:28:13,276 INFO  [Log4j] Input Data:--------------->    Facebook  
+2020-11-17 14:28:13,363 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:13,363 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:13,363 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:13,363 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:13,363 INFO  [Log4j] WebElement:----------->    country    
+2020-11-17 14:28:13,363 INFO  [Log4j] Input Data:--------------->    United States  
+2020-11-17 14:28:13,563 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:13,563 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:13,563 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:13,563 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:28:13,563 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:28:13,563 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-1|TS04|TS06|Y  
+2020-11-17 14:28:13,563 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:28:13,614 INFO  [Log4j] Click is called ... firstName 
+2020-11-17 14:28:13,734 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:28:14,028 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:28:14,232 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:14,232 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:14,232 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:14,232 INFO  [Log4j] Action Keyword:----------->    ReuseTestCase  
+2020-11-17 14:28:14,232 INFO  [Log4j] WebElement:----------->        
+2020-11-17 14:28:14,232 INFO  [Log4j] Input Data:--------------->    Reuse_TC|TestCases|TC-2|TS02|TS05|N  
+2020-11-17 14:28:14,232 INFO  [Log4j] ReuseTestCase is called.. 
+2020-11-17 14:28:14,270 INFO  [Log4j] Enter text into ... company 
+2020-11-17 14:28:14,476 INFO  [Log4j] Enter text into ... phoneNum 
+2020-11-17 14:28:14,824 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:14,824 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:14,824 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:14,824 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:14,824 INFO  [Log4j] WebElement:----------->    firstName    
+2020-11-17 14:28:14,824 INFO  [Log4j] Input Data:--------------->    Mukesh  
+2020-11-17 14:28:14,824 INFO  [Log4j] Enter text into ... firstName 
+2020-11-17 14:28:15,007 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:15,007 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:15,007 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:15,007 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:15,007 INFO  [Log4j] WebElement:----------->    surName    
+2020-11-17 14:28:15,007 INFO  [Log4j] Input Data:--------------->    Thakor  
+2020-11-17 14:28:15,007 INFO  [Log4j] Enter text into ... surName 
+2020-11-17 14:28:15,211 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:15,211 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:15,211 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:15,211 INFO  [Log4j] Action Keyword:----------->    InputText  
+2020-11-17 14:28:15,211 INFO  [Log4j] WebElement:----------->    jobTitle    
+2020-11-17 14:28:15,211 INFO  [Log4j] Input Data:--------------->    SE  
+2020-11-17 14:28:15,211 INFO  [Log4j] Enter text into ... jobTitle 
+2020-11-17 14:28:15,389 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:15,389 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:15,389 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:15,389 INFO  [Log4j] Action Keyword:----------->    selectDropDownByVisibleText  
+2020-11-17 14:28:15,389 INFO  [Log4j] WebElement:----------->    selectState    
+2020-11-17 14:28:15,389 INFO  [Log4j] Input Data:--------------->    AR  
+2020-11-17 14:28:15,554 INFO  [Log4j] **************************************************************************************** 
+2020-11-17 14:28:15,554 INFO  [Log4j] ***********************BEGIN -----TEST-------CASE ******************************** 
+2020-11-17 14:28:15,554 INFO  [Log4j] Test Case ID:------------->    TestCases    
+2020-11-17 14:28:15,554 INFO  [Log4j] Action Keyword:----------->    Click  
+2020-11-17 14:28:15,554 INFO  [Log4j] WebElement:----------->    btnsubmit    
+2020-11-17 14:28:15,554 INFO  [Log4j] Input Data:--------------->    null  
+2020-11-17 14:28:15,554 INFO  [Log4j] Click is called ... btnsubmit 

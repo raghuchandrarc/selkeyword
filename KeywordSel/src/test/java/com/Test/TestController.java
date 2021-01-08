@@ -20,7 +20,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.Test.Keywords;
-import com.Utils.ExcelUtils;
 import com.Utils.GetScreenShot;
 import com.Utils.Log4j;
 import com.Utils.Resources;
@@ -211,74 +210,7 @@ public class TestController extends Resources {
 		
 	}
 	
-	//@Test(dataProvider = "Authentication")
-	public void Registration_data(String sUserName, String sPassword) throws Exception {
-		chrome();
-		// http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx
-		driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
 
-		driver.findElement(By.xpath(".//input[@id='ctl00_MainContent_username']")).click();
-
-		driver.findElement(By.xpath(".//input[@id='ctl00_MainContent_username']")).sendKeys(sUserName);
-
-		System.out.println(sUserName);
-
-		driver.findElement(By.xpath("//input[@id='ctl00_MainContent_password']")).sendKeys(sPassword);
-
-		
-
-	}
-	
-	///@Test(dataProvider = "Authentication")
-	public void Registration_data2(String sUserName, String sPassword) throws Exception {
-		ie();
-		// http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx
-		driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
-
-		driver.findElement(By.xpath(".//input[@id='ctl00_MainContent_username']")).click();
-
-		driver.findElement(By.xpath(".//input[@id='ctl00_MainContent_username']")).sendKeys(sUserName);
-
-		System.out.println(sUserName);
-
-		driver.findElement(By.xpath("//input[@id='ctl00_MainContent_password']")).sendKeys(sPassword);
-
-		System.out.println(sPassword);
-		
-
-	}
-
-	//@DataProvider(name = "Authentication",parallel=true)
-
-	public Object[][] Authentication() throws Exception {
-
-		// Setting up the Test Data Excel file
-		
-		ExcelUtils.setExcelFile("D:/rcworksp/KeywordSel/TestSuite&Testcases/TestData.xlsx", "Sheet1");
-
-		sTestCaseName = this.toString();
-
-		// From above method we get long test case name including package and
-		// class name etc.
-
-		// The below method will refine your test case name, exactly the name
-		// use have used
-
-		sTestCaseName = ExcelUtils.getTestCaseName(this.toString());
-
-		// Fetching the Test Case row number from the Test Data Sheet
-
-		// Getting the Test Case name to get the TestCase row from the Test Data
-		// Excel sheet
-
-		iTestCaseRow = ExcelUtils.getRowContains(sTestCaseName, 0);
-
-		Object[][] testObjArray = ExcelUtils.getTableArray("D:/rcworksp/KeywordSel/TestSuite&Testcases/TestData.xlsx", "Sheet1", iTestCaseRow);
-
-		return (testObjArray);
-
-	}
-	
 
 	@AfterTest
 	public void quitBrowser() {
